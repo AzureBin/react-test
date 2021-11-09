@@ -1,0 +1,485 @@
+[
+  {
+    "type": "simple",
+    "id": 1,
+    "sku": "s1",
+    "title": "Product 1",
+    "regular_price": {
+      "currency": "USD",
+      "value": 27.12
+    },
+    "image": "/images/1.png",
+    "brand": 9
+  },
+  {
+    "type": "configurable",
+    "id": 2,
+    "sku": "c1",
+    "title": "Product 2",
+    "regular_price": {
+      "currency": "USD",
+      "value": 54.21
+    },
+    "image": "/images/conf/default.png",
+    "configurable_options": [
+      {
+        "attribute_id": 93,
+        "attribute_code": "color",
+        "label": "Color",
+        "values": [
+          {
+            "label": "Red",
+            "value_index": 931,
+            "value": "#ff0000"
+          },
+          {
+            "label": "Blue",
+            "value_index": 932,
+            "value": "#0000ff"
+          },
+          {
+            "label": "Black",
+            "value_index": 933,
+            "value": "#000"
+          }
+        ]
+      },
+      {
+        "attribute_code": "size",
+        "attribute_id": 144,
+        "position": 0,
+        "id": 2,
+        "label": "Size",
+        "values": [
+          {
+            "label": "M",
+            "value_index": 1441,
+            "value": 1
+          },
+          {
+            "label": "L",
+            "value_index": 1442,
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 2001,
+          "sku": "c1-red-m",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 2002,
+          "sku": "c1-red-l",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 932
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 2003,
+          "sku": "c1-blue-m",
+          "image": "/image/conf/blue.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 933
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 2004,
+          "sku": "c1-black-l",
+          "image": "/image/conf/black.png"
+        }
+      }
+    ],
+    "brand": 1
+  },
+  {
+    "type": "simple",
+    "id": 3,
+    "sku": "s2",
+    "title": "Product 3",
+    "regular_price": {
+      "currency": "USD",
+      "value": 36.87
+    },
+    "image": "/images/2.png",
+    "brand": 8
+  },
+  {
+    "type": "simple",
+    "id": 4,
+    "sku": "s3",
+    "title": "Product 4",
+    "regular_price": {
+      "currency": "USD",
+      "value": 28.91
+    },
+    "image": "/images/3.png",
+    "brand": 2
+  },
+  {
+    "type": "simple",
+    "id": 5,
+    "sku": "s4",
+    "title": "Product 5",
+    "regular_price": {
+      "currency": "USD",
+      "value": 41.23
+    },
+    "image": "/images/4.png",
+    "brand": 7
+  },
+  {
+    "type": "simple",
+    "id": 6,
+    "sku": "s5",
+    "title": "Product 6",
+    "regular_price": {
+      "currency": "USD",
+      "value": 88.00
+    },
+    "image": "/images/5.png",
+    "brand": 3
+  },
+  {
+    "type": "simple",
+    "id": 7,
+    "sku": "s6",
+    "title": "Product 7",
+    "regular_price": {
+      "currency": "USD",
+      "value": 127.41
+    },
+    "image": "/images/6.png",
+    "brand": 6
+  },
+  {
+    "type": "configurable",
+    "id": 8,
+    "sku": "c2",
+    "title": "Product 8",
+    "regular_price": {
+      "currency": "USD",
+      "value": 63.27
+    },
+    "image": "/images/conf/default.png",
+    "configurable_options": [
+      {
+        "attribute_id": 93,
+        "attribute_code": "color",
+        "label": "Color",
+        "values": [
+          {
+            "label": "Red",
+            "value_index": 931,
+            "value": "#ff0000"
+          },
+          {
+            "label": "Blue",
+            "value_index": 932,
+            "value": "#0000ff"
+          },
+          {
+            "label": "Black",
+            "value_index": 933,
+            "value": "#000"
+          }
+        ]
+      },
+      {
+        "attribute_code": "size",
+        "attribute_id": 144,
+        "position": 0,
+        "id": 2,
+        "label": "Size",
+        "values": [
+          {
+            "label": "M",
+            "value_index": 1441,
+            "value": 1
+          },
+          {
+            "label": "L",
+            "value_index": 1442,
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 8001,
+          "sku": "c2-red-m",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 8002,
+          "sku": "c2-red-l",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 932
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 8003,
+          "sku": "c2-blue-m",
+          "image": "/image/conf/blue.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 933
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 8004,
+          "sku": "c2-black-l",
+          "image": "/image/conf/black.png"
+        }
+      }
+    ],
+    "brand": 4
+  },
+  {
+    "type": "simple",
+    "id": 9,
+    "sku": "s7",
+    "title": "Product 9",
+    "regular_price": {
+      "currency": "USD",
+      "value": 123.40
+    },
+    "image": "/images/7.png",
+    "brand": 5
+  },
+  {
+    "type": "configurable",
+    "id": 10,
+    "sku": "c3",
+    "title": "Product 10",
+    "regular_price": {
+      "currency": "USD",
+      "value": 68.273
+    },
+    "image": "/images/conf/default.png",
+    "configurable_options": [
+      {
+        "attribute_id": 93,
+        "attribute_code": "color",
+        "label": "Color",
+        "values": [
+          {
+            "label": "Red",
+            "value_index": 931,
+            "value": "#ff0000"
+          },
+          {
+            "label": "Blue",
+            "value_index": 932,
+            "value": "#0000ff"
+          },
+          {
+            "label": "Black",
+            "value_index": 933,
+            "value": "#000"
+          }
+        ]
+      },
+      {
+        "attribute_code": "size",
+        "attribute_id": 144,
+        "position": 0,
+        "id": 2,
+        "label": "Size",
+        "values": [
+          {
+            "label": "M",
+            "value_index": 1441,
+            "value": 1
+          },
+          {
+            "label": "L",
+            "value_index": 1442,
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 10001,
+          "sku": "c10-red-m",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 931
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 10002,
+          "sku": "c10-red-l",
+          "image": "/image/conf/red.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 932
+          },
+          {
+            "code": "size",
+            "value_index": 1441
+          }
+        ],
+        "product": {
+          "id": 10003,
+          "sku": "c10-blue-m",
+          "image": "/image/conf/blue.png"
+        }
+      },
+      {
+        "attributes": [
+          {
+            "code": "color",
+            "value_index": 933
+          },
+          {
+            "code": "size",
+            "value_index": 1442
+          }
+        ],
+        "product": {
+          "id": 10004,
+          "sku": "c10-black-l",
+          "image": "/image/conf/black.png"
+        }
+      }
+    ],
+    "brand": 3
+  },
+  {
+    "type": "simple",
+    "id": 11,
+    "sku": "s8",
+    "title": "Product 11",
+    "regular_price": {
+      "currency": "USD",
+      "value": 92.32
+    },
+    "image": "/images/8.png",
+    "brand": 1
+  },
+  {
+    "type": "simple",
+    "id": 12,
+    "sku": "s9",
+    "title": "Product 12",
+    "regular_price": {
+      "currency": "USD",
+      "value": 53.40
+    },
+    "image": "/images/9.png",
+    "brand": 2
+  }
+]
