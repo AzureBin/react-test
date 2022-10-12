@@ -8,7 +8,7 @@
 - Используйте TypeScript;
 - Используйте [React](https://github.com/facebook/react);
 - Используйте [Redux](https://github.com/reduxjs/react-redux);
-- Сборка скриптов [Weabpack](https://webpack.js.org/);
+- Сборка скриптов [Webpack](https://webpack.js.org/);
 - Сборка стилей проекта должна выполняться [Weabpack](https://webpack.js.org/) или [Gulp](https://github.com/gulpjs/gulp);
 - Работоспособность последних версиях браузеров Chrome, Safari и Firefox;
 
